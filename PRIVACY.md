@@ -17,9 +17,9 @@ its own.
 **What leaves your PC, and only when you ask**
 
 - **Email** opens your own mail program with the screenshot attached. Nothing is
-  sent until you send it from there. The attachment waits in a temporary folder
-  and is deleted after a day.
-- **Share** opens the Windows Share sheet; the app you pick receives the screenshot.
+  sent until you send it from there. If no mail program is set up, the Windows
+  Share sheet opens instead, and the app you pick receives the screenshot. The
+  attachment waits in a temporary folder and is deleted after a day.
 
 **Updates**
 
@@ -53,10 +53,10 @@ its own.
 **Що залишає ваш комп’ютер, і лише на ваше прохання**
 
 - **Пошта** відкриває вашу поштову програму зі знімком у вкладенні. Нічого не
-  надсилається, доки ви не надішлете лист самі. Вкладення чекає в тимчасовій теці
-  й видаляється за добу.
-- **Поділитися** відкриває панель «Поділитися» Windows; знімок отримує програма,
-  яку ви виберете.
+  надсилається, доки ви не надішлете лист самі. Якщо поштову програму не
+  налаштовано, натомість відкривається панель «Поділитися» Windows, і знімок
+  отримує вибрана вами програма. Вкладення чекає в тимчасовій теці й видаляється
+  за добу.
 
 **Оновлення**
 
