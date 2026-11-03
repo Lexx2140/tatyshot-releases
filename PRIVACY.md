@@ -1,8 +1,8 @@
 # ТаТиШот privacy policy
 
 ТаТиШот (TaTyShot) takes screenshots on your PC and keeps them there. It has no
-account, no telemetry, no analytics and no ads, and it sends nothing anywhere on
-its own.
+account, no telemetry, no analytics and no ads. It sends your screenshots nowhere on
+its own, and the only connections it makes by itself are the ones under Updates.
 
 **What stays on your PC**
 
@@ -26,9 +26,16 @@ its own.
 - The copy from the Microsoft Store makes no connections. The Store updates it.
 - The copy from GitHub checks
   [github.com/Lexx2140/tatyshot-releases](https://github.com/Lexx2140/tatyshot-releases)
-  for a newer version when it starts and at most once a day after that, and downloads
-  one only when you choose to install it. GitHub sees that request as it sees any
-  visit to a web page.
+  for a newer version when it starts and at most once a day after that. A version
+  found when it starts is downloaded and installed then; one found later waits until
+  you choose to install it. GitHub sees those requests as it sees any visit to a web
+  page.
+- The copy from GitHub also moves itself to the Microsoft Store, without asking. When
+  it starts, and at most once a day after that, it uses Windows' `winget` tool to
+  install the Store copy, which accepts the Microsoft Store's terms on your behalf and
+  contacts Microsoft as any Store install does, sending your PC's two-letter region. It then uninstalls itself and starts
+  the Store copy, which keeps your settings. If the install can't finish, nothing
+  changes.
 
 **Contact:** questions and requests go to [github.com/Lexx2140/tatyshot-releases/issues](https://github.com/Lexx2140/tatyshot-releases/issues).
 
@@ -37,8 +44,8 @@ its own.
 # Політика конфіденційності ТаТиШот
 
 ТаТиШот робить знімки екрана на вашому комп’ютері й там їх і тримає. У ньому
-немає облікового запису, телеметрії, аналітики та реклами, і сам він нічого
-нікуди не надсилає.
+немає облікового запису, телеметрії, аналітики та реклами. Сам він ваші знімки
+нікуди не надсилає, а єдині з’єднання, які він встановлює сам, описані в розділі «Оновлення».
 
 **Що залишається на вашому комп’ютері**
 
@@ -63,8 +70,15 @@ its own.
 - Копія з Microsoft Store нікуди не підключається. Її оновлює Store.
 - Копія з GitHub перевіряє
   [github.com/Lexx2140/tatyshot-releases](https://github.com/Lexx2140/tatyshot-releases)
-  на нову версію під час запуску й не частіше ніж раз на добу після того, а
-  завантажує її, лише коли ви вирішите встановити. GitHub бачить цей запит так
-  само, як будь-яке відвідування вебсторінки.
+  на нову версію під час запуску й не частіше ніж раз на добу після того. Версію,
+  знайдену під час запуску, вона одразу завантажує й встановлює; знайдену пізніше —
+  лише коли ви вирішите встановити. GitHub бачить ці запити так само, як будь-яке
+  відвідування вебсторінки.
+- Копія з GitHub також сама переходить на Microsoft Store, не питаючи. Під час запуску
+  й не частіше ніж раз на добу після того вона через інструмент Windows `winget`
+  встановлює копію зі Store: це приймає умови Microsoft Store від вашого імені й
+  звертається до Microsoft, як будь-яке встановлення зі Store, передаючи дволітерний код регіону вашого комп’ютера. Потім вона видаляє себе
+  й запускає копію зі Store, яка зберігає ваші налаштування. Якщо встановити не
+  вдається, нічого не змінюється.
 
 **Контакт:** питання та прохання надсилайте на [github.com/Lexx2140/tatyshot-releases/issues](https://github.com/Lexx2140/tatyshot-releases/issues).
